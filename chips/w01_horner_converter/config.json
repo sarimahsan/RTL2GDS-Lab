@@ -1,0 +1,11 @@
+{
+    "DESIGN_NAME": "horner_radix_conv",
+    "VERILOG_FILES": [
+        "dir::src/horner_radix_conv.v"
+    ],
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 10.0,
+    "FP_CORE_UTIL": 40,
+    "PL_TARGET_DENSITY_PCT": 50,
+    "SYNTH_AUTONAME": true
+}

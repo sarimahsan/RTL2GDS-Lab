@@ -1,0 +1,33 @@
+# Simulation & Waveform artifacts
+*.vcd
+*.fst
+*.ghw
+*.vvp
+sim_build/
+obj_dir/
+
+# OpenLane 2 / PnR run outputs (keep configs & RTL, ignore generated runs)
+runs/
+**/runs/
+*.gds
+*.gds.gz
+*.lef
+*.def
+*.spef
+*.sdf
+*.spice
+*.mag
+*.ext
+*.log
+*.rpt
+
+# Python / OS / Editor artifacts
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+.vscode/
+
+# Local planning / docs (not pushed)
+docs/
