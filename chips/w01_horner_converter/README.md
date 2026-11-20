@@ -4,6 +4,10 @@ Converts an MSB-first digit stream in any radix `base_in` (`2..16`) into a 16-bi
 
 `acc_next = acc * base + digit`
 
+## Chip Schematic
+
+![Horner Radix Converter Chip Schematic](./schematic.png)
+
 ## Pinout (`horner_radix_conv`)
 - `clk`, `rst_n`: Clock & active-low async reset
 - `start`: Pulses to latch `base_in[4:0]` and reset the accumulator

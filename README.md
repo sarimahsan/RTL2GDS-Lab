@@ -2,15 +2,9 @@
 
 A collection of **Verilog → OpenLane 2 (`sky130A`) GDSII** digital ASIC designs.
 
-## Repository Structure
+## Chips
 
-```text
-RTL2GDS-Lab/
-├── chips/          # Self-contained Verilog + OpenLane 2 ASIC designs
-├── templates/      # Shared OpenLane 2 config & simulation Makefile
-├── .gitignore
-└── README.md
-```
+- [01 — Horner's Rule Serial Radix Converter (`w01_horner_converter`)](./chips/w01_horner_converter/README.md)
 
 ## Toolchain
 
